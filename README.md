@@ -4,14 +4,6 @@
 
 ---
 
-## [🌐  View Deployed Dapp](https://xm3ir-rqaaa-aaaap-abhqq-cai.icp0.io/)
-
-Designed for experienced Web3 developers, this starter project uses an IC canister to verify the ownership of Ethereum NFTs, with support for both the [Sepolia](https://www.alchemy.com/overviews/sepolia-testnet) and [Goerli](https://goerli.net/) testnets in addition to the Ethereum mainnet.
-
-This repository is in early beta testing; please feel free to [open an issue](https://github.com/dfinity/ic-eth-starter/issues) to report a bug or request a feature. Thanks!
-
-**Note:** this starter project is currently undergoing an internal security review. This message will be removed once the review process is complete.
-
 ## 🎬 Create a New Project
 
 Make sure that [Node.js](https://nodejs.org/en/) `>= 16`, [`dfx`](https://internetcomputer.org/docs/current/developer-docs/build/install-upgrade-remove) `>= 0.14`, and the latest version of [Rust](https://www.rust-lang.org/tools/install) are installed on your system.
@@ -47,11 +39,12 @@ Here is one way to acquire tokens and NFTs on the [Sepolia](https://www.alchemy.
   - Press "Deploy" and then "Mint" (may take a few seconds)
   - Press "Watch all NFTs" and in the MetaMask prompt, click the link with text "Test Dapp NFTs #1"
   - In the bottom-right of the page (under "TokenID"), press "#1" to view your newly minted NFT
-  - Copy / paste the URL into the [IC 🔗 ETH demo project](https://xm3ir-rqaaa-aaaap-abhqq-cai.icp0.io/verify) to verify that you are the owner of the NFT. 
+  - Copy / paste the URL into the [IC 🔗 ETH demo project](https://xm3ir-rqaaa-aaaap-abhqq-cai.icp0.io/verify) to verify that you are the owner of the NFT.
 
 ## 🛠️ Technology Stack
 
 **Front-end Webapp:**
+
 - [TypeScript](https://www.typescriptlang.org/): JavaScript extended with syntax for types
 - [Vite](https://vitejs.dev/): high-performance tooling for front-end web development
 - [React](https://reactjs.org/): a component-based UI library
@@ -59,11 +52,13 @@ Here is one way to acquire tokens and NFTs on the [Sepolia](https://www.alchemy.
 - [Prettier](https://prettier.io/): code formatting for a wide range of supported languages
 
 **Back-end Canister:**
+
 - [Motoko](https://github.com/dfinity/motoko#readme): a safe and simple programming language for the Internet Computer
 - [Mops](https://mops.one): an on-chain community package manager for Motoko
 - [mo-dev](https://github.com/dfinity/motoko-dev-server#readme): a live reload development server for Motoko
 
 **Ethereum Integration:**
+
 - [Rust](https://www.rust-lang.org/): a secure, high-performance canister programming language
 - [ethers-core](https://github.com/gakonst/ethers-rs): a popular Rust library for working with Ethereum data structures
 - [MetaMask](https://metamask.io/): a wallet and browser extension for interacting with Ethereum dapps
@@ -88,5 +83,3 @@ Here is one way to acquire tokens and NFTs on the [Sepolia](https://www.alchemy.
 - Split your frontend and backend console output by running `npm run frontend` and `npm run backend` in separate terminals.
 
 ---
-
-Contributions are welcome! Please check out the [contributor guidelines](https://github.com/dfinity/ic-eth-starter/blob/main/.github/CONTRIBUTING.md) for more information.
